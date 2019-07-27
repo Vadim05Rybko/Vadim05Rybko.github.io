@@ -1,0 +1,442 @@
+body{
+    background-color: #000000;
+    font-family: sans-serif;
+    width: 100%; height: 100%;
+    margin: 0px; padding: 0%;
+}
+h1{
+    color: #ffffff;
+    text-align: left;
+    margin-left: 270px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: oblique;
+}
+.content{display: flex;}
+
+.content.main-bar{
+    margin-left: 40px;
+    margin-right: 10px;
+}
+.main-bar img{
+    float: right;
+    height: 300px; width: 500px; 
+    margin-top: -100px; 
+    margin-right: 10px;
+    display: inline-flex;
+}
+.num{
+    color: #ffffff;
+    padding-top: 0px;
+    padding-right: 0px;
+    font-size: 18px;
+}
+.obj{
+    display: inline-flex;
+    margin-left: 70px;
+    margin-right: 10px;
+    padding-top: 5px;
+    width: 45%;
+}
+.main-bar .date{
+    padding-bottom: 50px;
+    padding-left: 130px;
+}
+.date{
+    color: #ffffff;
+    text-align: left;
+    font-size: 18px;
+}
+.events{
+    color: #ffffff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: oblique;
+    font-size: 20px;
+    margin: 20px;
+    padding-top: 100px; 
+}
+.link{text-decoration: none;}
+
+.events:hover{
+    color: rgb(200, 255, 95);
+    transition: 1s ease-out;  
+}
+hr{
+    border: 0;
+    height: 1px;
+    background: #ffffff;
+    background-image: -webkit-linear-gradient(left, #000, #fff, #000);
+    margin-top: 40px;
+    margin-bottom: 80px;
+}
+.main-bar .waterfall{
+    margin-top: -150px;
+}
+.main-bar .clowd{
+    margin-top: -50px;
+}
+.main-bar .mars{
+    width: 500px; height: 285px;
+}
+.main-bar .cont{ 
+    width: 500px; height: 275px;
+    margin-bottom: 70px;
+}
+.main-bar .halo{
+    margin-bottom: 70px;
+}
+.main-bar .plan{
+    width: 500px; height: 315px;
+    margin-top: -185px;
+    margin-bottom: 70px;
+}
+.main-bar .solar{
+    margin-top: -150px;
+    margin-bottom: 10px;   
+}
+.main-bar .galaxia{
+    display: none;
+}
+.main-bar .sunbun{
+    margin-top: -330px;
+}
+.main-bar .crop{
+    width: 500px; height: 285px;
+    margin-top: -120px;
+    margin-bottom: 10px;
+}
+.main-bar .plan3{
+    width: 500px; height: 315px;
+    margin-top: 175px;
+    margin-right: -500px;
+    margin-bottom: 40px;
+}
+.main-bar .branco{display: none;}
+
+.main-bar .plan2{display: none;}
+
+.main-bar .hole{display: none;}
+
+.arrow{
+    width: 70px; height: 70px;
+    margin-left: 0px;
+    margin-right: 20px;
+    transform: rotate(180deg);
+    opacity: 0.5;
+    margin-top: -100px;
+}.arrow:hover{
+    opacity: 1;
+}
+@media all and (max-width: 1160px){
+    .obj{
+        display: inline-flex;
+        margin-left: 100px;
+        margin-right: 10px;
+        padding-top: 5px;
+        width: 70%;
+    }
+    .main-bar .date{
+        padding-bottom: 50px;
+        padding-left: 85px;
+    }  
+    .main-bar img{
+        float: left;
+        height: 500px; width: 750px; 
+        margin-top: -10px; 
+        margin-right: 10px;
+        margin-left: 100px;
+        margin-bottom: 40px;
+        display: inline-flex;
+    }    
+    .main-bar .waterfall{
+        margin-top: -10px;
+    }
+    .main-bar .clowd{
+        margin-top: -10px;
+    }
+    .main-bar .mars{
+        width: 750px; height: 440px;
+    }
+    .main-bar .cont{ 
+        width: 750px; height: 410px;
+    }
+    .main-bar .halo{
+        width: 750px; height: 455px;
+    }
+    .main-bar .plan{
+        width: 750px; height: 480px;
+        margin-top: -10px;
+    }
+    .main-bar .solar{
+        width: 750px; height: 480px;
+        margin-top: -10px;
+    }
+    .main-bar .galaxia{
+        display: inline-flex;
+    }
+    .main-bar .sunbun{
+        width: 750px; height: 480px;
+        margin-top: -10px;
+    }
+    .main-bar .crop{
+        width: 750px; height: 470px;
+        margin-top: -10px;
+    }
+    .main-bar .plan3{
+        width: 750px; height: 480px;
+        margin-top: 10px;
+        margin-right: -10px;
+    }
+}
+@media all and (max-width: 878px){
+    .obj{
+        display: inline-flex;
+        margin-left: 50px;
+        margin-right: 5px;
+        padding-top: 5px;
+        width: 80%;
+    }
+    .main-bar .date{
+        padding-bottom: 50px;
+        padding-left: 85px;
+    }
+    .main-bar img{
+        float: left;
+        height: 400px; width: 650px; 
+        margin-top: -10px; 
+        margin-right: 10px;
+        margin-left: 50px;
+        margin-bottom: 40px;
+        display: inline-flex;
+    }    
+    .main-bar .waterfall{
+        margin-top: -10px;
+    }
+    .main-bar .clowd{
+        margin-top: -10px;
+    }
+    .main-bar .mars{
+        width: 650px; height: 355px;
+    }
+    .main-bar .cont{ 
+        width: 650px; height: 340px;
+    }
+    .main-bar .halo{
+        width: 650px; height: 385px;
+    }
+    .main-bar .plan{
+        width: 650px; height: 400px;
+        margin-top: -10px;
+    }
+    .main-bar .solar{
+        width: 650px; height: 400px;
+        margin-top: -10px;
+    }
+    .main-bar .galaxia{
+        display: inline-flex;
+    }
+    .main-bar .sunbun{
+        width: 650px; height: 400px;
+        margin-top: -10px;
+    }
+    .main-bar .crop{
+        width: 650px; height: 400px;
+        margin-top: -10px;
+    }
+    .main-bar .plan3{
+        width: 650px; height: 400px;
+        margin-top: 10px;
+        margin-right: -10px;
+    }
+    .arrow{
+        width: 60px; height: 60px;
+        margin-top: -100px;
+        margin-bottom: 30px;
+    }
+}
+@media all and (max-width: 768px){
+    h1{
+        color: #ffffff;
+        text-align: left;
+        margin-left: 160px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-style: oblique;
+    }
+    .obj{
+        display: inline-flex;
+        margin-left: 40px;
+        margin-right: 0px;
+        padding-top: 5px;
+        width: 85%;
+    }
+    .main-bar .date{
+        padding-bottom: 50px;
+        padding-left: 70px;
+    }
+    .main-bar img{
+        float: left;
+        height: 320px; width: 550px; 
+        margin-top: -10px; 
+        margin-right: 0px;
+        margin-left: 40px;
+        margin-bottom: 40px;
+        display: inline-flex;
+    }    
+    .main-bar .waterfall{
+        margin-top: -10px;
+    }
+    .main-bar .clowd{
+        margin-top: -10px;
+    }
+    .main-bar .mars{
+        width: 550px; height: 300px;
+    }
+    .main-bar .cont{ 
+        width: 550px; height: 288px;
+    }
+    .main-bar .halo{
+        width: 550px; height: 330px;
+    }
+    .main-bar .plan{
+        width: 550px; height: 340px;
+        margin-top: -10px;
+    }
+    .main-bar .solar{
+        width: 550px; height: 330px;
+        margin-top: -10px;
+    }
+    .main-bar .galaxia{
+        display: inline-flex;
+    }
+    .main-bar .sunbun{
+        width: 550px; height: 340px;
+        margin-top: -10px;
+    }
+    .main-bar .crop{
+        width: 550px; height: 340px;
+        margin-top: -10px;
+    }
+    .main-bar .plan3{
+        width: 550px; height: 340px;
+        margin-top: 10px;
+        margin-right: -10px;
+    }
+    .arrow{
+        width: 60px; height: 60px;
+        margin-top: -100px;
+        margin-bottom: 30px;
+    }
+}
+@media all and (max-width: 600px){
+    h1{
+        font-size: 27px;
+        color: #ffffff;
+        text-align: left;
+        margin-left: 100px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-style: oblique;
+    }
+    .obj{
+        display: inline-flex;
+        margin-left: 20px;
+        margin-right: 0px;
+        padding-top: 5px;
+        width: 85%;
+    }
+    .main-bar .date{
+        padding-bottom: 50px;
+        font-size: 15px;
+        padding-left: 60px;
+    }
+    .num{
+        color: #ffffff;
+        padding-top: 0px;
+        padding-right: 0px;
+        font-size: 15px;
+    }
+    .main-bar img{
+        float: left;
+        height: 250px; width: 450px; 
+        margin-top: -10px; 
+        margin-right: 0px;
+        margin-left: 20px;
+        margin-bottom: 40px;
+        display: inline-flex;
+    }    
+    .main-bar .waterfall{
+        margin-top: -10px;
+    }
+    .main-bar .clowd{
+        margin-top: -10px;
+    }
+    .main-bar .mars{
+        width: 450px; height: 245px;
+    }
+    .main-bar .cont{ 
+        width: 450px; height: 230px;
+    }
+    .main-bar .halo{
+        width: 450px; height: 265px;
+    }
+    .main-bar .plan{
+        width: 450px; height: 280px;
+        margin-top: -10px;
+    }
+    .main-bar .solar{
+        width: 450px; height: 275px;
+        margin-top: -10px;
+    }
+    .main-bar .galaxia{
+        display: inline-flex;
+    }
+    .main-bar .sunbun{
+        width: 450px; height: 277px;
+        margin-top: -10px;
+    }
+    .main-bar .crop{
+        width: 450px; height: 270px;
+        margin-top: -10px;
+    }
+    .main-bar .plan3{
+        width: 450px; height: 270px;
+        margin-top: 10px;
+        margin-right: -10px;
+    }
+    .arrow{
+        width: 50px; height: 50px;
+        margin-top: -100px;
+        margin-bottom: 30px;
+    }
+
+    hr{display: none;}
+
+    .events{
+        width: 100%;
+        color: #ffffff;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-style: oblique;
+        font-size: 18px;
+        padding-top: 0px; 
+        padding-bottom: 30px;
+    }   
+}
+@media all and (max-width: 400px){
+    .main-bar img{
+        float: left;
+        height: 250px; width: 450px; 
+        margin-top: -10px; 
+        margin-right: 0px;
+        margin-left: 0px;
+        margin-bottom: 40px;
+        display: inline-flex;
+    }
+    .events{
+        width: 100%;
+        color: #ffffff;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-style: oblique;
+        font-size: 18px;
+        padding-top: 0px; 
+        padding-left: 50px;
+        padding-bottom: 30px;
+    }   
+}

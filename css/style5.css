@@ -1,0 +1,80 @@
+body{
+    background-image: url("https://hdqwalls.com/download/earth-wide-1360x768.jpg");
+    width: 100%; height: 100%;
+    margin: 0%; padding: 0%;
+}
+.bar{
+    transition: .5s;
+    color: rgb(255, 255, 255);
+    font-size: 23px;
+    padding: 100px 0 50px 100px;
+    cursor: pointer;
+}
+.bar::after{
+    content: "+";
+    padding-left: 15px;
+    font-weight: 900;
+}
+.bar.active{
+    padding: 0 0 0 25px;
+}
+.bar.active::after{
+    content: "-";
+    padding-left: 15px;
+    font-weight: 900;
+}
+.hist{display: none;}
+
+.hist.act{
+    display: inline-block;
+    width: 100%; height: 100%;
+    margin: 0; padding: 0%;
+}
+.arrow{
+    width: 70px; height: 70px;
+    margin-left: 0px;
+    margin-right: 20px;
+    transform: rotate(180deg);
+    opacity: 0.5;
+}
+.arrow2{
+    width: 70px; height: 70px;
+    margin-left: 1px;
+    margin-right: 20px;
+    float: right;
+    opacity: 0.5;
+    margin-top: 10px;
+}
+.arrow:hover{
+    opacity: 1;
+}.arrow2:hover{
+    opacity: 1;
+}
+@media all and (max-width: 768px){
+    .arrow{
+        width: 60px; height: 60px;
+    }    
+    .arrow2{
+        width: 60px; height: 60px;
+    }.bar{
+        transition: .5s;
+        color: rgb(255, 255, 255);
+        font-size: 23px;
+        padding: 30px 0 0px 40px;
+        cursor: pointer;
+    }
+}
+@media all and (max-width: 400px){
+    .arrow{
+        width: 50px; height: 50px;
+    } 
+    .arrow2{
+        width: 50px; height: 50px;
+    }.bar{
+        transition: .5s;
+        color: rgb(255, 255, 255);
+        font-size: 20px;
+        padding: 50px 0 0px 40px;
+        cursor: pointer;
+    }
+}
