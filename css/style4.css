@@ -118,7 +118,7 @@ footer{
     main{
         display: inline-flex;
         position: relative;
-        margin-left: 50x;
+        margin-left: 50px;
     }.prev{
         position: relative;
         text-decoration: none;
